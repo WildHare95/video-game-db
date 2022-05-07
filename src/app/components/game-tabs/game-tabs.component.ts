@@ -5,7 +5,6 @@ import {Game} from "../../models";
   selector: 'app-game-tabs',
   templateUrl: './game-tabs.component.html',
   styleUrls: ['./game-tabs.component.scss'],
-  encapsulation: ViewEncapsulation.None
 })
 export class GameTabsComponent implements OnInit {
   @Input() game!: Game

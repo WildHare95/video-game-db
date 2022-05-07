@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'https://rawg-video-games-database.p.rapidapi.com'
+  BASE_URL: 'https://rawg-video-games-database.p.rapidapi.com',
+  EPIC_URL: 'https://free-epic-games.p.rapidapi.com/free'
 };
 
 /*

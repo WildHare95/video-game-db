@@ -19,6 +19,7 @@ import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
 import { DetailsComponent } from './components/details/details.component';
 import {SearchBarComponent} from "./components/search-bar/search-bar.component";
 import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
+import { TabsBarComponent } from './components/tabs-bar/tabs-bar.component';
 
 
 
@@ -28,7 +29,8 @@ import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
     SearchBarComponent,
     HomeComponent,
     DetailsComponent,
-    GameTabsComponent
+    GameTabsComponent,
+    TabsBarComponent
   ],
   imports: [
     BrowserModule,
